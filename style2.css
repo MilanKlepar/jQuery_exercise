@@ -1,0 +1,33 @@
+main {
+    border: solid 10px #4285f4;
+    width: 270px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: Rubik;
+  }
+  .n{
+    background: #E67676;
+    padding: 50px;
+    margin: 0px;
+  }
+  .e{
+    background: #F2F062;
+    margin: 0px;
+    padding: 50px;
+    
+  }
+  .s{
+    background: #A9E6E6;
+    margin: 0px;
+    padding: 50px;
+  }
+  .w{
+    background: #7692E4;
+    margin: 0px;
+    padding: 50px;
+  }
+  
+#north {
+    
+}  
