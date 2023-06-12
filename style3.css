@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto Mono;
+    background-image: url(https://mdn.github.io/css-examples/learn/backgrounds-borders/balloons.jpg);
+   /* background-position: 1000 0; couldnt make position*/
+     background-repeat: no-repeat;
+    /* background-size: 100% ; */
+  }
+  h2{
+    font-family: oswald;
+    color: #673147;
+    text-align: center;
+    margin: 0;
+  }
+  li,
+  p {
+    line-height: 1.5;
+  }
+  dl{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  ol{
+    /* font-weight: bold; */
+    list-style-type: upper-roman;
+    list-style: inherit-no;
+  }
+  ul {
+    padding-left: 2rem;
+    list-style: lao url(https://mdn.github.io/css-examples/learn/backgrounds-borders/star.png);
+    margin-top: 0;
+  
+  }
+   dt {
+   font-family: Bebas Neue;
+    font-size: 20px;
+    color: #465945;
+    font-weight: bold;
+  }
+  dd {
+    font-family: Rubik;
+  }
+  h1{
+    font-size: 45px;
+    font-family: Rubik;
+    color: #800000;
+    text-align: center;
+    margin: 0;
+  }
+  .last {
+    font-family: oswald;
+    font-size: 20px;
+    color: #af4035;
+  }
