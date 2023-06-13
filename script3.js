@@ -30,3 +30,16 @@ let additionalBlock = {
   $('.jsHEad').css('color','purple');
   $('ul').append('<p class="jsP"></h1>');
   $('.jsP').text(additionalBlock.text);
+  $('#fB').click(() => {
+    console.log("Yeah, you clicked me' to the console when the user clicks on the button");
+  })   
+  
+  $('#sB').click(() => {
+    $('#fB').text('Change text!Yupii');
+  })
+  $('#tB').click(() => {
+    $('button').css('background-color','gray');
+  })
+ 
+ 
+
