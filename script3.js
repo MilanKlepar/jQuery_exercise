@@ -6,20 +6,18 @@ let li = $('li');
 //     li[i].append(names[i]);
 // }
 $('body').find('ul li');
-
-
+let ul = $('ul');
+let elements = document.createDocumentFragment();
+let newLI;
 names.forEach((i) => {
-
-  $('ul').append('<li class="add">', i, '</li>')
-  // for (l=0; l<= names.length; l++) {
-  //     $('li.add').text(i);
-  // }
-  // // m[i].append(names[i]);
-  // $(".added").append(i);
-
+  newLI = document.createElement('li');
+  newLI.textContent = i;
+  elements.append(newLI);
 })
+ul.append(elements);
+
 // console.log(li.get(8))
-$(li[2]).css('font-weight', 'bold');
+li.prevObject.css('font-weight', 'bold');
 
 let additionalBlock = {
   title: "Added with javascript",
