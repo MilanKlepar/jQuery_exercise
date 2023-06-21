@@ -7,6 +7,8 @@ let li = $('li');
 // }
 $('body').find('ul li');
 let ul = $('ul');
+let liAR = [li]; 
+// li(3).css('font-weight','bold');
 let elements = document.createDocumentFragment();
 let newLI;
 names.forEach((i) => {
@@ -15,9 +17,10 @@ names.forEach((i) => {
   elements.append(newLI);
 })
 ul.append(elements);
+// elements.css('font-weight','bold');
 
 // console.log(li.get(8))
-li.prevObject.css('font-weight', 'bold');
+
 
 let additionalBlock = {
   title: "Added with javascript",
