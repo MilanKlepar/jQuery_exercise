@@ -1,7 +1,139 @@
+body {
+    background: linear-gradient(360deg, hsla(67, 15%, 88%, 1) 0%, hsla(197, 35%, 79%, 1) 43%, hsla(304, 15%, 80%, 1) 93%);
+
+background: -moz-linear-gradient(360deg, hsla(67, 15%, 88%, 1) 0%, hsla(197, 35%, 79%, 1) 43%, hsla(304, 15%, 80%, 1) 93%);
+
+background: -webkit-linear-gradient(360deg, hsla(67, 15%, 88%, 1) 0%, hsla(197, 35%, 79%, 1) 43%, hsla(304, 15%, 80%, 1) 93%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E5E6DD", endColorstr="#B6D1DC", GradientType=1 );
+}
+h1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: rgb(84, 91, 91);
+}
+.header {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 600px;
+    position: relative;
+    left: 21%; 
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* border: solid black; */
+}
+.toDO {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(120, 173, 148, 0.895);
+    padding-bottom: 15px;
+    border-radius: 35px;
+}
+.cont {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid black; */
+}
 li {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+     color: rgb(112, 118, 118);
+     display:list-item;
 }
 .delbutton{
     font-weight: bold;
+}
+.donePlan {
+    color:rgb(9, 10, 10);
+    /* background-image: url(/GREEN_fluent_checkmark_circle_filled_icon.png); */
+}
+
+.done {
+    background: none;
+    border-style:none;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 4px;
+    /* background-image: url(/GREEN_fluent_checkmark_circle_filled_icon.png); */
+}
+.done img {
+    width: 20px;
+    height:20px;
+    background: none;
+    border-style:none;
+    /* object-fit: cover;
+   mask-size: contain;
+  -webkit-mask-image: url("./fluent_checkmark_circle_filled_icon.png");
+  mask-image: url("./fluent_checkmark_circle_filled_icon.png"); */
+
+}
+.done img:hover {
+    opacity: 65%;
+}
+.delbutton img {
+    width: 20px;
+    height:20px;
+    background: none;
+    border-style:none;
+}
+.delbutton img:hover {
+    opacity: 65%;
+}
+.delbutton {
+    background: none;
+    border-style:none;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 4px;
+}
+ul {
+    list-style: none;
+}
+li:hover {
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
+#addIN {
+    border-radius: 15px;
+    border: none;
+    /* box-shadow: inset, left 10px;
+    box-shadow: left 2px;*/
+} 
+#addButton img {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+}
+#addButton {
+    border: none;
+    background: none;
+}
+#addButton img:hover {
+    width: 18px;
+    height: 18px;
+    opacity: 65%;
+}
+#addButton img:active {
+    width: 15px;
+    height: 15px;
+    
+}
+input:focus {
+    border: none;
 }
