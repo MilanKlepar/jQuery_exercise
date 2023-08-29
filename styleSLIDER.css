@@ -1,0 +1,117 @@
+.container {
+    /* border: solid black; */
+    width: 900px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    position: sticky;
+    left: 200px;
+    right: 200px;
+}
+#viewer {
+    border: solid black;
+    border-radius: 3px;
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* background-image: url(./IMG_4713.JPG); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+#thumb img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+#thumbCase button {
+    /* border: solid red 2px; */
+    border-radius: 5px;
+    width: fit-content;
+    height: 50px;
+    width: 50px;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#thumbCase {
+    /* border: solid black; */
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+button img {
+    position:relative;
+    height: 200px;
+    width: 20px;
+    /* transform: scaleX(-1); */
+}
+#next {
+    position:relative;
+    height: 200px;
+    width: 20px;
+    transform: scaleX(-1);
+    left: 450px;
+    bottom: 0px;
+    
+}
+button {
+    background:none;
+    border: 0;
+}
+.thumbs::before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align:justify ;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 5px ;
+    transition: opacity 0.3s ease-in-out;
+  
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+
+  .thumbs:hover::before {
+    opacity: 1;
+    visibility: visible;
+  }
+.greatImg{
+    margin-left: 0;
+    margin-right: 0;
+    width:1400px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom:0px;
+    top: -10px;
+    /* right: 300px; */
+    left: -250px;
+    /* border: 2px solid black; */
+    visibility: hidden;
+}
+.view {
+    width: 200px;   
+    height: 200px;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 350px;
+}
+  
